@@ -1,6 +1,6 @@
 # Location Pricing
 
-This assignment asks you to do some feature engineering to fit into the `Carbitrage` project. As part of the `Carbitrage` offering, we have built models to estimate the value of a given car. Our current approach is to build a separate model for every combination of location and make/model with sufficient data. This approach is great in large locations for popular cars, but we are limiting the efficacy of our model by dividing our data in such a fine way. We would like to aggegate locations to enhance the predictive power of our models. 
+This assignment, which is an "A/B Choice" assignment, asks you to do some feature engineering to fit into the `Carbitrage` project. As part of the `Carbitrage` offering, we have built models to estimate the value of a given car. Our current approach is to build a separate model for every combination of location and make/model with sufficient data. This approach is great in large locations for popular cars, but we are limiting the efficacy of our model by dividing our data in such a fine way. We would like to aggegate locations to enhance the predictive power of our models. 
 
 The product manager believes that we can classify location into a "reasonable number" of groups. The head of data science suspects that something between 3 and 20 groups will be optimal. The data scientist has created a static set of about 14 months of data for you. You can find that data here:   `umt-msba.carbitrage.processed_listing_pages_20240913`. 
 
